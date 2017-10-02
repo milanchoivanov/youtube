@@ -1,0 +1,1438 @@
+
+
+/*Gi brisam marginite i padding vo body*/
+ .body{
+	margin-top:70px;
+	padding:0px;
+}
+/* Gi brisam marginite i padding vo site blokovi*/
+.nopadding{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+/* Jambotronot Dizajn */
+.home {
+      color: #fff;
+      background-color: #4D9DE0;
+	  padding:0px 0px 0px 0px;
+      font-family: Montserrat, sans-serif;
+}
+  
+.opis{
+	padding:0px 20px 0px 20px;
+	background-color: #4D9DE0;
+}
+
+
+/* Ova ke bide tekstot za golemi ekrani*/
+.textH2{
+	font-weight:bold;  
+	font-family:Georgia; 
+	font-size:42px;
+}
+
+.textH5{
+	font-style:italic;
+	font-family:Times New Roman; 
+	font-size:20px; color:#444444;
+}
+
+.textP{
+	font-family:Georgia;  
+	font-size:21px;
+}
+.btnPurchase {
+	padding-bottom: 7px;
+}
+
+
+
+
+
+/*Razlicna golemina na fontovite spored goleminata na screenot, jas smeniv samo textH2 zosto pravese bela praznina na desno*/
+
+@media (max-width:240px){
+	.home {
+	  height:300px;
+      color: #fff;
+      background-color: #4D9DE0;
+	  padding:0px 0px 0px 0px;
+      font-family: Montserrat, sans-serif;
+     }
+
+
+.opis{
+	padding:0px 20px 0px 20px;
+	 background-color: #4D9DE0;
+    }
+.slika{
+	padding:0px 20px 0px 20px;
+	margin:0px auto;
+	}
+.imageBest img{
+	display:none;
+	width:10px;
+	height:10px;
+	}
+
+    .textH2{
+	font-weight:bold;  
+	font-family:Georgia; 
+	font-size:21px;
+    }
+
+.textH5{
+	font-style:italic;
+	font-family:Times New Roman; 
+	font-size:12px; color:#444444;
+    }
+
+.textP{
+	font-family:Georgia;  
+	font-size:12px; 
+    }
+  .btn-responsive {
+    padding:7px 17px;
+    font-size:50%;
+    line-height: 2;
+    border-radius:3px;
+  }
+h1.aboutTheAuthor {
+	  float:left;
+	  padding-left:0px;
+	  font-weight: bold; 
+	  font-family:Georgia; 
+	  font-size: 32px;
+	  color: #444444;	
+} 
+.listaSocial{
+	padding-left:1px;
+}
+
+.slikaMilancho{
+	width: 100px;
+	height:133px;
+	margin-left:20px;
+	margin-top:0px;
+}
+.slikaPotpis{
+	width: 100px;
+	height:34px;
+	margin-left:0px;
+}
+.textBio{
+	padding: 10px;
+	text-indent:0px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 
+}
+.emptySpace1{
+	height:10px;
+}
+.emptySpace{
+	height:10px;
+	background-color:#fff;
+}
+
+/* CSS for OVERVIEW*/
+
+h1.overviewNaslov{
+	padding-top:0px;
+	text-align:center;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 19px;
+	color: #444444;	
+}
+.razdelnikSlika {
+    width:100%;
+	padding-bottom:20px;
+	padding-top:40px;
+}
+
+.textOverview{
+	padding-right: 5px;
+	padding-left:5px;
+	text-indent:10px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:12px; 	
+}
+.sideBooksss {
+	padding-top:0px;
+}
+.sideText {
+	padding-right: 10px;
+	padding-left:20px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:23px;
+}
+.btnBuy {
+	text-align:center;
+	padding-top:30px;
+}
+.sideBooks {
+	padding:10px;
+	width:200px;
+	height:200px;
+}
+
+hr.linija {
+	padding:20px 20px;
+    border: 0;
+    height: 3px;
+    background: #4D9DE0;
+    background-image: linear-gradient(to right, #ffffff, #4D9DE0, #ffffff);
+}
+/* This CSS for TESTIMONIALS*/
+
+h1.testH {
+	padding:80px 50px 70px 0px;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 19px;
+	color: #444444;	
+}
+/* CSS for PAYMENTS*/
+.naslovPrice h1{
+	padding:60px 0px 70px 0px;
+	font-weight: bold; 
+	font-size: 47px;
+	font-family:Times New Roman;
+	color: #444444;	
+	background: #ffffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f2f2ef, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f2f2ef, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f2f2ef,#ffffff ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f2f2ef, #ffffff); /* Standard syntax */
+}
+
+.podnaslovPrice h3{
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 22px;
+	color: #444444;	
+}
+
+.podnaslovPrice h1 {
+    font-weight: bold; 
+	font-family:Arial; 
+	font-size: 25px;
+	color: #444444;		
+}
+.podnaslovPrice h6 {
+    font-weight: italic; 
+	font-family:Arial; 
+	font-size: 15px;
+	color: #444444;		
+}
+.textPayment{
+	padding-left:10px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+
+.vtoraKolona,.vtoraKolona h1, .vtoraKolona h3, .vtoraKolona h6, .vtoraKolona p {
+	background-color: #4D9DE0;
+	color:#ffffff;
+}
+/*CSS Contact*/
+.conP {
+	padding-left:0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width : 241px) and (max-width : 760px) {
+.home {
+	  height:800px;
+      color: #fff;
+      background-color: #4D9DE0;
+	  padding:0px 0px 0px 0px;
+      font-family: Montserrat, sans-serif;
+     }
+.pomestuvaTop{
+	height:30px;
+	}
+
+.opis{
+	padding:0px 10px 0px 10px;
+	 background-color: #4D9DE0;
+    }
+.opis img {
+	float:right;
+	margin-left:0px;
+	margin-right:10px;
+	padding-right:0px;
+	width:40%;
+}
+.slika{
+	padding:0px 0px 0px 0px;
+	margin:0px auto;
+	}
+.imageBest img{
+	width:180px;
+	height:110px;
+	}
+    .textH2{
+	font-weight:bold;  
+	font-family:Georgia; 
+	font-size:37px;
+    }
+
+.textH5{
+	font-style:italic;
+	font-family:Times New Roman; 
+	font-size:14px; color:#444444;
+    }
+
+.textP{
+	font-family:Georgia;  
+	font-size:14px; 
+    }
+.btn-responsive {
+    padding:17px 25px;
+    font-size:100%;
+    line-height: 1.2;
+  }
+h1.aboutTheAuthor {
+	  float:left;
+	  padding-left:50px;
+	  font-weight: bold; 
+	  font-family:Georgia; 
+	  font-size: 32px;
+	  color: #444444;	
+} 
+.listaSocial{
+	padding-left:1px;
+}
+
+.slikaMilancho{
+	width: 200px;
+	height:267px;
+	margin-left:10px;
+	margin-top:30px;
+}
+.slikaPotpis{
+	width: 200px;
+	height:67px;
+	margin-left:10px;
+}
+.textBio{
+	padding: 40px;
+	text-indent:30px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 
+}
+.emptySpace1{
+	height:50px;
+}
+.emptySpace{
+	height:50px;
+    background-color:#fff;
+}
+/* CSS for OVERVIEW*/
+
+h1.overviewNaslov{
+	padding-top:0px;
+	text-align:center;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 37px;
+	color: #444444;	
+}
+.razdelnikSlika {
+    width:100%;
+	padding-bottom:20px;
+	padding-top:40px;
+}
+
+.textOverview{
+	padding-right: 40px;
+	padding-left:40px;
+	text-indent:30px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+.sideBooksss {
+	padding-top:50px;
+}
+.sideText {
+	padding-right: 20px;
+	padding-left:20px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:23px;
+}
+.btnBuy {
+	text-align:center;
+	padding-top:30px;
+}
+.sideBooks {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+hr.linija {
+	padding:20px 10px 20px 10px;
+    border: 0;
+    height: 3px;
+    background: #4D9DE0;
+    background-image: linear-gradient(to right, #ffffff, #4D9DE0, #ffffff);
+}
+/* This CSS for TESTIMONIALS*/
+
+h1.testH {
+	padding:80px 50px 70px 5px;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 35px;
+	color: #444444;	
+}
+/* CSS for PAYMENTS*/
+.naslovPrice h1{
+	padding:60px 0px 70px 0px;
+	font-weight: bold; 
+	font-size: 47px;
+	font-family:Times New Roman;
+	color: #444444;	
+	background: #ffffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f2f2ef, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f2f2ef, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f2f2ef,#ffffff ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f2f2ef, #ffffff); /* Standard syntax */
+}
+
+.podnaslovPrice h3{
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 22px;
+	color: #444444;	
+}
+
+.podnaslovPrice h1 {
+    font-weight: bold; 
+	font-family:Arial; 
+	font-size: 55px;
+	color: #444444;		
+}
+.podnaslovPrice h6 {
+    font-weight: italic; 
+	font-family:Arial; 
+	font-size: 15px;
+	color: #444444;		
+}
+.textPayment{
+	padding-left:10px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+
+.vtoraKolona,.vtoraKolona h1, .vtoraKolona h3, .vtoraKolona h6, .vtoraKolona p {
+	background-color: #4D9DE0;
+	color:#ffffff;
+}
+.conP {
+	padding-left:5px;
+}
+}
+
+
+
+
+
+@media (min-width : 761px) and (max-width : 992px) {
+.home {
+      color: #fff;
+      background-color: #4D9DE0;
+	  padding:0px 0px 0px 0px;
+      font-family: Montserrat, sans-serif;
+     }
+.pomestuvaTop{
+	height:30px;
+	}
+
+.opis{
+	padding:0px 20px 0px 20px;
+	 background-color: #4D9DE0;
+    }
+.opis img {
+	float:right;
+	padding-right:0px;
+	width:50%;
+}
+.slika{
+	padding:0px 0px 0px 0px;
+	margin:0px auto;
+	}
+.imageBest img{
+	width:190px;
+	height:150px;
+	
+}
+
+    .textH2{
+	font-weight:bold;  
+	font-family:Georgia; 
+	font-size:37px;
+    }
+
+.textH5{
+	font-style:italic;
+	font-family:Times New Roman; 
+	font-size:14px; color:#444444;
+    }
+
+.textP{
+	font-family:Georgia;  
+	font-size:14px; 
+    }
+.btn-responsive {
+    padding:17px 25px;
+    font-size:100%;
+    line-height: 1.2;
+  }
+h1.aboutTheAuthor {
+	  float:left;
+	  padding-left:150px;
+	  font-weight: bold; 
+	  font-family:Georgia; 
+	  font-size: 42px;
+	  color: #444444;	
+} 
+.listaSocial{
+	padding-left:10px;
+}
+
+.slikaMilancho{
+	width: 300px;
+	height:400px;
+	margin-left:70px;
+	margin-top:30px;
+}
+.slikaPotpis{
+	width: 300px;
+	height:100px;
+	margin-left:70px;
+}
+.textBio{
+	padding: 40px;
+	text-indent:30px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 
+}
+.emptySpace1{
+	height:70px;
+}
+.emptySpace{
+	height:50px;
+    background-color:#fff;
+}
+/* CSS for OVERVIEW*/
+
+h1.overviewNaslov{
+	padding-top:0px;
+	text-align:center;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 37px;
+	color: #444444;	
+}
+.razdelnikSlika {
+    width:100%;
+	padding-bottom:20px;
+	padding-top:40px;
+}
+
+.textOverview{
+	padding-right: 40px;
+	padding-left:40px;
+	text-indent:30px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+.sideBooksss {
+	padding-top:250px;
+}
+.sideText {
+	padding-right: 20px;
+	padding-left:20px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:23px;
+}
+.btnBuy {
+	text-align:center;
+	padding-top:30px;
+}
+.sideBooks {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+hr.linija {
+	padding:20px 20px;
+    border: 0;
+    height: 3px;
+    background: #4D9DE0;
+    background-image: linear-gradient(to right, #ffffff, #4D9DE0, #ffffff);
+}
+/* This CSS for TESTIMONIALS*/
+
+h1.testH {
+	padding:80px 50px 70px 50px;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 42px;
+	color: #444444;	
+}
+/* CSS for PAYMENTS*/
+.naslovPrice h1{
+	padding:60px 0px 70px 0px;
+	font-weight: bold; 
+	font-size: 47px;
+	font-family:Times New Roman;
+	color: #444444;	
+	background: #ffffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f2f2ef, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f2f2ef, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f2f2ef,#ffffff ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f2f2ef, #ffffff); /* Standard syntax */
+}
+
+.podnaslovPrice h3{
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 22px;
+	color: #444444;	
+}
+
+.podnaslovPrice h1 {
+    font-weight: bold; 
+	font-family:Arial; 
+	font-size: 55px;
+	color: #444444;		
+}
+.podnaslovPrice h6 {
+    font-weight: italic; 
+	font-family:Arial; 
+	font-size: 15px;
+	color: #444444;		
+}
+.textPayment{
+	padding-left:10px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+
+.vtoraKolona,.vtoraKolona h1, .vtoraKolona h3, .vtoraKolona h6, .vtoraKolona p {
+	background-color: #4D9DE0;
+	color:#ffffff;
+}
+.conP {
+	padding-left:20px;
+}
+}
+
+
+
+
+
+
+@media (min-width : 993px) and (max-width : 1200px) {
+.home {
+      color: #fff;
+      background-color: #4D9DE0;
+	  padding:0px 0px 0px 0px;
+      font-family: Montserrat, sans-serif;
+     }
+.pomestuvaTop{
+	height:50px;
+	}
+.pomestuva{
+	height:0px;
+	}
+
+.opis{
+	padding:0px 20px 0px 20px;
+	 background-color: #4D9DE0;
+    }
+.opis img {
+	float:right;
+	padding-right:30px;
+	width:50%;
+}
+.slika{
+	padding:0px 20px 0px 20px;
+	margin:0px auto;
+	}
+.imageBest img{
+	width:250px;
+	height:180px;
+	
+}
+
+.textH2{
+	font-weight:bold;  
+	font-family:Georgia; 
+	font-size:39px;
+    }
+
+.textH5{
+	font-style:italic;
+	font-family:Times New Roman; 
+	font-size:16px; color:#444444;
+    }
+
+.textP{
+	font-family:Georgia;  
+	font-size:16px; 
+    }
+.btn-responsive {
+    padding:19px 27px;
+    font-size:120%;
+    line-height: 1.2;	
+    }
+h1.aboutTheAuthor {
+	  float:left;
+	  padding-left:150px;
+	  font-weight: bold; 
+	  font-family:Georgia; 
+	  font-size: 42px;
+	  color: #444444;	
+} 
+.listaSocial{
+	padding-left:10px;
+}
+
+.slikaMilancho{
+	width: 300px;
+	height:400px;
+	margin-left:70px;
+	margin-top:30px;
+}
+.slikaPotpis{
+	width: 300px;
+	height:100px;
+	margin-left:70px;
+}
+.textBio{
+	padding: 40px;
+	text-indent:30px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 
+}
+.emptySpace1{
+	height:170px;
+}
+.emptySpace{
+	height:80px;
+    background-color:#fff;
+}
+/* CSS for OVERVIEW*/
+
+h1.overviewNaslov{
+	padding-top:0px;
+	text-align:center;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 42px;
+	color: #444444;	
+}
+.razdelnikSlika {
+    width:100%;
+	padding-bottom:20px;
+	padding-top:40px;
+}
+
+.textOverview{
+	padding-right: 40px;
+	padding-left:40px;
+	text-indent:30px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+.sideBooksss {
+	padding-top:250px;
+}
+.sideText {
+	padding-right: 10px;
+	padding-left:20px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:23px;
+}
+.btnBuy {
+	text-align:center;
+	padding-top:30px;
+}
+.sideBooks {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+hr.linija {
+	padding:20px 20px;
+    border: 0;
+    height: 3px;
+    background: #4D9DE0;
+    background-image: linear-gradient(to right, #ffffff, #4D9DE0, #ffffff);
+}/* This CSS for TESTIMONIALS*/
+
+h1.testH {
+	padding:130px 50px 70px 50px;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 42px;
+	color: #444444;	
+}
+/* CSS for PAYMENTS*/
+.naslovPrice h1{
+	padding:60px 0px 70px 0px;
+	font-weight: bold; 
+	font-size: 47px;
+	font-family:Times New Roman;
+	color: #444444;	
+	background: #ffffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f2f2ef, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f2f2ef, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f2f2ef,#ffffff ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f2f2ef, #ffffff); /* Standard syntax */
+}
+
+.podnaslovPrice h3{
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 22px;
+	color: #444444;	
+}
+
+.podnaslovPrice h1 {
+    font-weight: bold; 
+	font-family:Arial; 
+	font-size: 55px;
+	color: #444444;		
+}
+.podnaslovPrice h6 {
+    font-weight: italic; 
+	font-family:Arial; 
+	font-size: 15px;
+	color: #444444;		
+}
+.textPayment{
+	padding-left:10px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+
+.vtoraKolona,.vtoraKolona h1, .vtoraKolona h3, .vtoraKolona h6, .vtoraKolona p {
+	background-color: #4D9DE0;
+	color:#ffffff;
+}
+.conP {
+	padding-left:50px;
+}
+} 
+
+
+
+
+
+
+
+@media (min-width : 1201px) {
+.home {
+      color: #fff;
+      background-color: #4D9DE0;
+	  padding:0px 0px 0px 0px;
+      font-family: Montserrat, sans-serif;
+     }
+.pomestuvaTop{
+	height:35px;
+	}
+.pomestuva{
+	height:5px;
+    }
+
+.opis{
+	padding:60px 20px 0px 20px;
+	 background-color: #4D9DE0;
+    }
+.opis img {
+	float:right;
+	padding-right:100px;
+	width:50%;
+}
+.slika{
+	padding:0px 20px 0px 20px;
+	margin:0px auto;
+	}
+.imageBest img{
+	width:320px;
+	height:200px;
+	
+}
+.textH2{
+	font-weight:bold;  
+	font-family:Georgia; 
+	font-size:42px;
+    }
+
+.textH5{
+	font-style:italic;
+	font-family:Times New Roman; 
+	font-size:19px; color:#444444;
+    }
+
+.textP{
+	font-family:Georgia;  
+	font-size:19px; 
+    }
+.btn-responsive {
+    padding:19px 29px;
+    font-size:150%;
+    line-height: 2;
+    border-radius:3px;
+  }
+h1.aboutTheAuthor {
+	  float:left;
+	  padding-left:150px;
+	  font-weight: bold; 
+	  font-family:Georgia; 
+	  font-size: 42px;
+	  color: #444444;	
+} 
+.listaSocial{
+	padding-left:50px;
+}
+
+.slikaMilancho{
+	width: 300px;
+	height:400px;
+	margin-left:110px;
+	margin-top:30px;
+}
+.slikaPotpis{
+	width: 300px;
+	height:100px;
+	margin-left:110px;
+}
+.textBio{
+	padding: 40px;
+	text-indent:30px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 
+}
+.emptySpace1{
+	height:250px;
+}
+.emptySpace{
+	height:100px;
+    background-color:#fff;
+}
+/* CSS for OVERVIEW*/
+
+h1.overviewNaslov{
+	padding-top:0px;
+	text-align:center;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 42px;
+	color: #444444;	
+}
+.razdelnikSlika {
+    width:100%;
+	padding-bottom:20px;
+	padding-top:40px;
+}
+
+.textOverview{
+	padding-right: 40px;
+	padding-left:40px;
+	text-indent:30px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+.sideBooksss {
+	padding-top:250px;
+}
+.sideText {
+	padding-right: 10px;
+	padding-left:20px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:23px;
+}
+.btnBuy {
+	text-align:center;
+	padding-top:30px;
+}
+.sideBooks {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+hr.linija {
+	padding:20px 20px;
+    border: 0;
+    height: 3px;
+    background: #4D9DE0;
+    background-image: linear-gradient(to right, #ffffff, #4D9DE0, #ffffff);
+}
+/* This CSS for TESTIMONIALS*/
+
+h1.testH {
+	padding:130px 50px 70px 50px;
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 42px;
+	color: #444444;	
+}
+/* CSS for PAYMENTS*/
+.naslovPrice h1{
+	padding:60px 0px 70px 0px;
+	font-weight: bold; 
+	font-size: 47px;
+	font-family:Times New Roman;
+	color: #444444;	
+	background: #ffffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f2f2ef, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f2f2ef, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f2f2ef,#ffffff ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f2f2ef, #ffffff); /* Standard syntax */
+}
+
+.podnaslovPrice h3{
+	font-weight: bold; 
+	font-family:Georgia; 
+	font-size: 22px;
+	color: #444444;	
+}
+
+.podnaslovPrice h1 {
+    font-weight: bold; 
+	font-family:Arial; 
+	font-size: 55px;
+	color: #444444;		
+}
+.podnaslovPrice h6 {
+    font-weight: italic; 
+	font-family:Arial; 
+	font-size: 15px;
+	color: #444444;		
+}
+.textPayment{
+	padding-left:10px;
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+
+.vtoraKolona,.vtoraKolona h1, .vtoraKolona h3, .vtoraKolona h6, .vtoraKolona p {
+	background-color: #4D9DE0;
+	color:#ffffff;
+}
+.conP {
+	padding-left:80px;
+}
+}
+
+
+
+
+
+
+  /* Slikata so kniga ja pomestuvam nadolu za da moze da se gleda od menito*/
+.slika{
+	margin:0px auto;
+}
+
+	
+		
+ /* CSS za navigacijata (linkovite)*/
+  .navbar {
+      margin-bottom: 0;
+      background-color:#4D9DE0;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #4D9DE0 !important;
+      background-color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+
+    .navbar-header a{
+	  padding-top:5px;
+  }
+ /*  About The Author CSS*/
+
+.slikaMilancho { 
+	box-shadow: 7px 7px 3px grey;
+	-ms-transform: rotate(7deg); /* IE 9 */
+	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	transform: rotate(7deg);
+}
+
+
+.biography{
+	padding-top:70px;
+}
+
+
+ul.socialList li {
+  width: auto;
+  float: left;
+  padding:10px;
+}
+ 
+ /* For Carosel CSS*/
+ 
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #4D9DE0;
+  }
+  .carousel-indicators li {
+      border-color: #4D9DE0;
+  }
+  
+  .carousel-indicators li.active {
+      background-color: #4D9DE0;
+  }
+  
+ .slideanim {visibility:hidden;}
+  
+ .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+    .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .slideanim {visibility:hidden;}
+  
+  .kakuanim {visibility:hidden;}
+   
+  .taysonanim {visibility:hidden;}
+	
+  .luwinanim {visibility:hidden;}
+  
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      visibility: visible;
+  }  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+.slide1 {
+      animation-name: slide1;
+      -webkit-animation-name: slide1;
+      animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      visibility: visible;
+  }  
+  @keyframes slide1 {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide1 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  .slide2 {
+      animation-name: slide2;
+      -webkit-animation-name: slide2;
+      animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      visibility: visible;
+  }  
+  @keyframes slide2 {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide2 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  .slide3 {
+      animation-name: slide3;
+      -webkit-animation-name: slide3;
+      animation-duration: 4s;
+      -webkit-animation-duration: 4s;
+      visibility: visible;
+  }  
+  @keyframes slide3 {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide3 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+ .slikaCarousel{
+	text-align:center;
+	padding-bottom:50px;
+}
+.wrapCarousel{
+	padding-bottom:50px;
+	padding-top:50px;
+	background-color:#f2f2ef;
+}
+
+/* This CSS for TESTIMONIALS*/
+
+
+
+.lugeTestslika{
+	margin-left:55px;
+	position:right;
+}
+
+.wrapTest{
+	background: #f2f2ef; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #f2f2ef , #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f2f2ef, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f2f2ef, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#f2f2ef,#ffffff); /* Standard syntax */
+	padding-bottom:100px;
+}
+.lugeTest p{
+	color:#444444;
+	font-family:Georgia;  
+	font-size:19px; 	
+}
+.lugeTest{
+	padding-bottom: 50px;
+	
+	padding-left:10px;
+}
+
+
+
+
+/* Ova gi vrti boite na btn-primary*/
+
+.vtoraKolona .btn-primary {
+        background-color: #FFF;
+        color: #285e8e;
+        border-color: #3276b1;
+        border-radius:5px;
+    }
+.vtoraKolona .btn-primary:hover,
+ .vtoraKolona .btn-primary:focus,
+ .vtoraKolona .btn-primary:active    {
+        background-color: #3276b1;
+        color: #FFF;
+        border-color: #285e8e;
+    }
+
+	/*CSS for Contact*/
+
+.contact{
+	padding: 120px 0px 90px 0px;
+	background-color: #f2f2ef;
+}
+
+.naslovCon{
+	padding-bottom:50px;
+}
+
+/* CSS for FOOTER*/
+
+.copyright{
+	padding: 10px 0px 10px 0px;
+	background-color:#4D9DE0;
+	color: #ffffff;
+}
+
+/* Rotation of social media buttons*/
+
+
+.social-network a.icoFacebook:hover {
+	background-color:#4D9DE0;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#4D9DE0;
+}
+
+ .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-circle a {
+ background-color: #D3D3D3;   
+}
+
+/*Admin Logo Change*/
+
+.logo {
+	width:40px;
+	height:40px;
+}
+
+/*Stiliranje na horizontalnata linija*/
+
+hr.style13 {
+	margin-left:50px;
+	margin-right:50px;
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #4D9DE0 inset;
+}
+
+.control-label {
+	padding-top:7px;
+	text-align:right;
+}
+
+ul {
+	list-style:none;
+}
+
+/* Modal CSS */
+
